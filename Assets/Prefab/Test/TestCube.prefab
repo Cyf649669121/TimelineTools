@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2739493985081093203
+--- !u!1 &2211087891889012476
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,10 +39,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4196531608087602635}
-  - component: {fileID: 6353891657159673001}
-  - component: {fileID: 6617243934802616903}
-  - component: {fileID: 979961462451874771}
+  - component: {fileID: 5019831827506836889}
+  - component: {fileID: 725192116206790659}
+  - component: {fileID: 2695239326738813611}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -50,13 +49,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4196531608087602635
+--- !u!4 &5019831827506836889
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2739493985081093203}
+  m_GameObject: {fileID: 2211087891889012476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -64,21 +63,21 @@ Transform:
   m_Father: {fileID: 6256021838693012604}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6353891657159673001
+--- !u!33 &725192116206790659
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2739493985081093203}
+  m_GameObject: {fileID: 2211087891889012476}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6617243934802616903
+--- !u!23 &2695239326738813611
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2739493985081093203}
+  m_GameObject: {fileID: 2211087891889012476}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -89,7 +88,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,19 +108,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &979961462451874771
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2739493985081093203}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3880351091699934164
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,7 +137,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4196531608087602635}
+  - {fileID: 5019831827506836889}
   - {fileID: 8393740770942525933}
   - {fileID: 8393740770875974199}
   m_Father: {fileID: 7947683173573389910}
@@ -319,8 +305,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8393740770875974196}
-  m_LocalRotation: {x: -5.2256833e-26, y: -0.6746043, z: -4.7756246e-26, w: 0.73817956}
-  m_LocalPosition: {x: 8.76, y: 0, z: -0.79}
+  m_LocalRotation: {x: 2.9662001e-15, y: -0.6907914, z: 2.8338478e-15, w: 0.7230542}
+  m_LocalPosition: {x: 8.76, y: 0, z: -0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8393740769732405098}
@@ -345,7 +331,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 4196531608087602635}
+  m_LookAt: {fileID: 5019831827506836889}
   m_Follow: {fileID: 8393740770942525933}
   m_Lens:
     FieldOfView: 45
@@ -356,7 +342,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1694915, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
