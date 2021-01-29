@@ -21,7 +21,7 @@ namespace Warfare.Game.Perform
 
         public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
         {
-            var playable = ScriptPlayable<HeroPerfromCmeraShake_Behaviour>.Create(graph);
+            var playable = ScriptPlayable<HeroPerformCameraShake_Behaviour>.Create(graph);
             playable.GetBehaviour().shakeConfig = shakeConfig;
             return playable;
         }
